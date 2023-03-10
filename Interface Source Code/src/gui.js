@@ -336,7 +336,7 @@ function updateColor() {
 //change the image path depending on the character and skin
 function charImgChange(charImg, charName, skinName = `${charName} (1)`) {
     if (charName != "Random") {
-        charImg.setAttribute('src', charPath + '/Renders/' + charName + '/' + skinName + '.png');
+        charImg.setAttribute('src', charPath + '/Renders/' + charName + '/' + skinName + '.webm');
     } else {
         charImg.setAttribute('src', charPath + '/Renders/Random.png');
     }
